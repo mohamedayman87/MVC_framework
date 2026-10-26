@@ -1,0 +1,16 @@
+{
+  "name": "moayman/mvc",
+  "autoload": {
+    "psr-4": {
+      "Moayman\\Mvc\\": "src/",
+      "App\\": "app/"
+    },
+    "files": [
+      "src/support/helpers.php"
+    ]
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.7",
+    "symfony/var-dumper": "^8.1"
+  }
+}
